@@ -1,0 +1,3751 @@
+{
+  "_version": "1.0",
+  "project": {
+    "_id": "61216a6bcc0695001c7cefbf",
+    "name": "Knowledge Dunk",
+    "teamID": "Zwnb2Len2e",
+    "devVersion": "61216a6b47d41a00062ca40a",
+    "platform": "general",
+    "platformData": {
+      "invocationName": "template project general"
+    },
+    "members": [],
+    "linkType": "STRAIGHT",
+    "image": "",
+    "creatorID": 71495,
+    "prototype": {
+      "nlp": {
+        "type": "LUIS",
+        "appID": "82859b97-217b-4100-8b86-e563d5123c2d",
+        "resourceID": "https://us-1.cognitiveservices.azure.com/"
+      },
+      "data": {},
+      "lastTrainedTime": 1629604655838,
+      "trainedModel": {
+        "intents": [
+          {
+            "key": "ml3r3aln",
+            "name": "Free throw",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Free throw",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "VF.YES",
+            "name": "VF.YES",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "yes"
+              },
+              {
+                "text": "yea"
+              },
+              {
+                "text": "ok"
+              },
+              {
+                "text": "okay"
+              },
+              {
+                "text": "yup"
+              },
+              {
+                "text": "ya"
+              },
+              {
+                "text": "sure"
+              }
+            ]
+          },
+          {
+            "key": "VF.NO",
+            "name": "VF.NO",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "no"
+              },
+              {
+                "text": "nope"
+              },
+              {
+                "text": "nay"
+              },
+              {
+                "text": "nah"
+              },
+              {
+                "text": "no way"
+              },
+              {
+                "text": "negative"
+              }
+            ]
+          },
+          {
+            "key": "3m7w3apb",
+            "name": "Three point line",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Three point line"
+              }
+            ]
+          },
+          {
+            "key": "nw8p3a8x",
+            "name": "Dimensions",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "I want to know about the dimensions",
+                "slots": []
+              },
+              {
+                "text": "Dimensions",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "hmbe3ajq",
+            "name": "Basket and Backboard",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "I want to know about the basket and the backboard",
+                "slots": []
+              },
+              {
+                "text": "I want to know about the backboard",
+                "slots": []
+              },
+              {
+                "text": "I want to know about the basket",
+                "slots": []
+              },
+              {
+                "text": "Basket and backboard",
+                "slots": []
+              },
+              {
+                "text": "Backboard",
+                "slots": []
+              },
+              {
+                "text": "Basket",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "3cbs3aqg",
+            "name": "What they are?",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "What they are",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "ncc83ans",
+            "name": "Basket Change",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Basket Change"
+              }
+            ]
+          },
+          {
+            "key": "zica3alh",
+            "name": "In-play and out-play basket sides",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "In-play and out-play basket sides"
+              }
+            ]
+          },
+          {
+            "key": "lhd03aoi",
+            "name": "Who chooses the basket?",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Who chooses the basket",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "sej03a03",
+            "name": "Dribble vs Gather",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "I want to know the differences between dribble and gather",
+                "slots": []
+              },
+              {
+                "text": "I want to know about gathering the ball",
+                "slots": []
+              },
+              {
+                "text": "I want to know about dribbling with the ball",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "i6j83at2",
+            "name": "Dribble end",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "When the dribble ends?",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "mpj93a5w",
+            "name": "What is the gather?",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "What is the gather?",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "lhkj3a7u",
+            "name": "Fouls",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "I want to know about fouls",
+                "slots": []
+              },
+              {
+                "text": "Fouls",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "nbn43a52",
+            "name": "Technical foul",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Technical foul",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "q3tc3anm",
+            "name": "Personal foul",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Personal foul",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "umtz3a1d",
+            "name": "What happens if a player doesn't dribble?",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "What happens if a player doesn't dribble?",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "md10t3a4f",
+            "name": "Shot clock",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "I want to know about the shot clock",
+                "slots": []
+              },
+              {
+                "text": "Shot clock",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "7p11h3af8",
+            "name": "When it starts and when it is stopped?",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "When it starts and when it is stopped?",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "iq12p3aku",
+            "name": "How much time the shot clock should have?",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "How much the shot clock should have?",
+                "slots": []
+              },
+              {
+                "text": "Time",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "VF.REPEAT",
+            "name": "VF.REPEAT",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "repeat"
+              },
+              {
+                "text": "again"
+              },
+              {
+                "text": "say again"
+              }
+            ]
+          }
+        ],
+        "slots": []
+      }
+    },
+    "createdAt": "2021-08-21T21:04:43.000Z"
+  },
+  "version": {
+    "_id": "61216a6b47d41a00062ca40a",
+    "name": "Initial Version",
+    "projectID": "61216a6bcc0695001c7cefbf",
+    "variables": [
+      "sessions",
+      "user_id",
+      "timestamp",
+      "platform",
+      "locale"
+    ],
+    "platformData": {
+      "slots": [],
+      "intents": [
+        {
+          "key": "VF.HELP",
+          "name": "VF.HELP",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "ml3r3aln",
+          "name": "Free throw",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Free throw",
+              "slots": []
+            }
+          ]
+        },
+        {
+          "key": "VF.YES",
+          "name": "VF.YES",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "VF.NO",
+          "name": "VF.NO",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "3m7w3apb",
+          "name": "Three point line",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "nw8p3a8x",
+          "name": "Dimensions",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "I want to know about the dimensions",
+              "slots": []
+            },
+            {
+              "text": "Dimensions",
+              "slots": []
+            }
+          ]
+        },
+        {
+          "key": "hmbe3ajq",
+          "name": "Basket and Backboard",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "I want to know about the basket and the backboard",
+              "slots": []
+            },
+            {
+              "text": "I want to know about the backboard",
+              "slots": []
+            },
+            {
+              "text": "I want to know about the basket",
+              "slots": []
+            },
+            {
+              "text": "Basket and backboard",
+              "slots": []
+            },
+            {
+              "text": "Backboard",
+              "slots": []
+            },
+            {
+              "text": "Basket",
+              "slots": []
+            }
+          ]
+        },
+        {
+          "key": "3cbs3aqg",
+          "name": "What they are?",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "What they are",
+              "slots": []
+            }
+          ]
+        },
+        {
+          "key": "ncc83ans",
+          "name": "Basket Change",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "zica3alh",
+          "name": "In-play and out-play basket sides",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "lhd03aoi",
+          "name": "Who chooses the basket?",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Who chooses the basket",
+              "slots": []
+            }
+          ]
+        },
+        {
+          "key": "a9h63ak3",
+          "name": "Dribble",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "sej03a03",
+          "name": "Dribble vs Gather",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "I want to know the differences between dribble and gather",
+              "slots": []
+            },
+            {
+              "text": "I want to know about gathering the ball",
+              "slots": []
+            },
+            {
+              "text": "I want to know about dribbling with the ball",
+              "slots": []
+            }
+          ]
+        },
+        {
+          "key": "i6j83at2",
+          "name": "Dribble end",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "When the dribble ends?",
+              "slots": []
+            }
+          ]
+        },
+        {
+          "key": "mpj93a5w",
+          "name": "What is the gather?",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "What is the gather?",
+              "slots": []
+            }
+          ]
+        },
+        {
+          "key": "lhkj3a7u",
+          "name": "Fouls",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "I want to know about fouls",
+              "slots": []
+            },
+            {
+              "text": "Fouls",
+              "slots": []
+            }
+          ]
+        },
+        {
+          "key": "kll83aai",
+          "name": "Types of fouls",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "njlx3aoy",
+          "name": "Common fouls",
+          "slots": [],
+          "inputs": []
+        },
+        {
+          "key": "nbn43a52",
+          "name": "Technical foul",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Technical foul",
+              "slots": []
+            }
+          ]
+        },
+        {
+          "key": "q3tc3anm",
+          "name": "Personal foul",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "Personal foul",
+              "slots": []
+            }
+          ]
+        },
+        {
+          "key": "umtz3a1d",
+          "name": "What happens if a player doesn't dribble?",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "What happens if a player doesn't dribble?",
+              "slots": []
+            }
+          ]
+        },
+        {
+          "key": "md10t3a4f",
+          "name": "Shot clock",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "I want to know about the shot clock",
+              "slots": []
+            },
+            {
+              "text": "Shot clock",
+              "slots": []
+            }
+          ]
+        },
+        {
+          "key": "7p11h3af8",
+          "name": "When it starts and when it is stopped?",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "When it starts and when it is stopped?",
+              "slots": []
+            }
+          ]
+        },
+        {
+          "key": "iq12p3aku",
+          "name": "How much time the shot clock should have?",
+          "slots": [],
+          "inputs": [
+            {
+              "text": "How much the shot clock should have?",
+              "slots": []
+            },
+            {
+              "text": "Time",
+              "slots": []
+            }
+          ]
+        },
+        {
+          "key": "VF.REPEAT",
+          "name": "VF.REPEAT",
+          "slots": [],
+          "inputs": []
+        }
+      ],
+      "settings": {
+        "restart": true,
+        "repeat": 100,
+        "locales": [
+          "en-US"
+        ]
+      },
+      "publishing": {},
+      "platform": "general"
+    },
+    "rootDiagramID": "61216a6b47d41a00062ca40b",
+    "creatorID": 71495,
+    "prototype": {
+      "data": {
+        "name": "Knowledge Dunk",
+        "locales": [
+          "en-US"
+        ]
+      },
+      "model": {
+        "intents": [
+          {
+            "key": "ml3r3aln",
+            "name": "Free throw",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Free throw",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "VF.YES",
+            "name": "VF.YES",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "yes"
+              },
+              {
+                "text": "yea"
+              },
+              {
+                "text": "ok"
+              },
+              {
+                "text": "okay"
+              },
+              {
+                "text": "yup"
+              },
+              {
+                "text": "ya"
+              },
+              {
+                "text": "sure"
+              }
+            ]
+          },
+          {
+            "key": "VF.NO",
+            "name": "VF.NO",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "no"
+              },
+              {
+                "text": "nope"
+              },
+              {
+                "text": "nay"
+              },
+              {
+                "text": "nah"
+              },
+              {
+                "text": "no way"
+              },
+              {
+                "text": "negative"
+              }
+            ]
+          },
+          {
+            "key": "3m7w3apb",
+            "name": "Three point line",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Three point line"
+              }
+            ]
+          },
+          {
+            "key": "nw8p3a8x",
+            "name": "Dimensions",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "I want to know about the dimensions",
+                "slots": []
+              },
+              {
+                "text": "Dimensions",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "hmbe3ajq",
+            "name": "Basket and Backboard",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "I want to know about the basket and the backboard",
+                "slots": []
+              },
+              {
+                "text": "I want to know about the backboard",
+                "slots": []
+              },
+              {
+                "text": "I want to know about the basket",
+                "slots": []
+              },
+              {
+                "text": "Basket and backboard",
+                "slots": []
+              },
+              {
+                "text": "Backboard",
+                "slots": []
+              },
+              {
+                "text": "Basket",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "3cbs3aqg",
+            "name": "What they are?",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "What they are",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "ncc83ans",
+            "name": "Basket Change",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Basket Change"
+              }
+            ]
+          },
+          {
+            "key": "zica3alh",
+            "name": "In-play and out-play basket sides",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "In-play and out-play basket sides"
+              }
+            ]
+          },
+          {
+            "key": "lhd03aoi",
+            "name": "Who chooses the basket?",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Who chooses the basket",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "sej03a03",
+            "name": "Dribble vs Gather",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "I want to know the differences between dribble and gather",
+                "slots": []
+              },
+              {
+                "text": "I want to know about gathering the ball",
+                "slots": []
+              },
+              {
+                "text": "I want to know about dribbling with the ball",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "i6j83at2",
+            "name": "Dribble end",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "When the dribble ends?",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "mpj93a5w",
+            "name": "What is the gather?",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "What is the gather?",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "lhkj3a7u",
+            "name": "Fouls",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "I want to know about fouls",
+                "slots": []
+              },
+              {
+                "text": "Fouls",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "nbn43a52",
+            "name": "Technical foul",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Technical foul",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "q3tc3anm",
+            "name": "Personal foul",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "Personal foul",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "umtz3a1d",
+            "name": "What happens if a player doesn't dribble?",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "What happens if a player doesn't dribble?",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "md10t3a4f",
+            "name": "Shot clock",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "I want to know about the shot clock",
+                "slots": []
+              },
+              {
+                "text": "Shot clock",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "7p11h3af8",
+            "name": "When it starts and when it is stopped?",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "When it starts and when it is stopped?",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "iq12p3aku",
+            "name": "How much time the shot clock should have?",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "How much the shot clock should have?",
+                "slots": []
+              },
+              {
+                "text": "Time",
+                "slots": []
+              }
+            ]
+          },
+          {
+            "key": "VF.REPEAT",
+            "name": "VF.REPEAT",
+            "slots": [],
+            "inputs": [
+              {
+                "text": "repeat"
+              },
+              {
+                "text": "again"
+              },
+              {
+                "text": "say again"
+              }
+            ]
+          }
+        ],
+        "slots": []
+      },
+      "context": {
+        "stack": [
+          {
+            "storage": {},
+            "variables": {},
+            "programID": "61216a6b47d41a00062ca40b"
+          }
+        ]
+      },
+      "settings": {
+        "layout": "text-and-dialog"
+      },
+      "platform": "general"
+    }
+  },
+  "diagrams": {
+    "61216a6b47d41a00062ca40b": {
+      "_id": "61216a6b47d41a00062ca40b",
+      "offsetX": 766.8802253701126,
+      "offsetY": 335.9429097719178,
+      "zoom": 16.666666666666664,
+      "nodes": {
+        "start00000000000000000000": {
+          "nodeID": "start00000000000000000000",
+          "type": "start",
+          "coords": [
+            451.51578073089684,
+            175.88953488372056
+          ],
+          "data": {
+            "name": "Start",
+            "color": "standard",
+            "ports": [
+              {
+                "type": "",
+                "target": "61216a820f6c65b5d0318a74",
+                "id": "6032b324359e8c14c06c033c",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        286.5157775878906,
+                        255.8895339965821
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        262.5157775878906,
+                        255.8895339965821
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        262.5157775878906,
+                        -399.0000076293945
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        414.50000762939453,
+                        -399.0000076293945
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": true
+                    }
+                  ]
+                }
+              }
+            ],
+            "steps": []
+          }
+        },
+        "61216a820f6c65b5d0318a71": {
+          "nodeID": "61216a820f6c65b5d0318a71",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "What kind of rule do you want to know about?"
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "6121720c0f6c65b5d0318b7c",
+                "id": "61216a820f6c65b5d0318a73"
+              }
+            ]
+          }
+        },
+        "61216a820f6c65b5d0318a74": {
+          "nodeID": "61216a820f6c65b5d0318a74",
+          "type": "block",
+          "coords": [
+            579.5000000000003,
+            -430.00000000000006
+          ],
+          "data": {
+            "name": "Rules",
+            "color": "standard",
+            "steps": [
+              "61216a820f6c65b5d0318a71",
+              "6121720c0f6c65b5d0318b7c"
+            ]
+          }
+        },
+        "61216cd40f6c65b5d0318ab8": {
+          "nodeID": "61216cd40f6c65b5d0318ab8",
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "else": {
+              "type": "both",
+              "pathName": "No Match",
+              "randomize": false,
+              "reprompts": [
+                {
+                  "voice": "default",
+                  "content": "I couldn't understand you. Please repeat it again."
+                }
+              ]
+            },
+            "choices": [
+              {
+                "intent": "ml3r3aln",
+                "mappings": []
+              },
+              {
+                "intent": "3m7w3apb",
+                "mappings": []
+              },
+              {
+                "intent": "VF.REPEAT",
+                "mappings": []
+              }
+            ],
+            "reprompt": null,
+            "chips": null,
+            "buttons": null,
+            "ports": [
+              {
+                "type": "",
+                "target": "612172430f6c65b5d0318b86",
+                "id": "61216cd40f6c65b5d0318abb"
+              },
+              {
+                "type": "",
+                "target": "61216ce40f6c65b5d0318ac3",
+                "id": "61216cd40f6c65b5d0318abc",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        901.583372707958,
+                        -333.33337058296627
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        873.7499731349202,
+                        -333.33337058296627
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        873.7499731349202,
+                        -739.3333475173549
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        897.7499731349202,
+                        -739.3333475173549
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": true
+                    }
+                  ]
+                }
+              },
+              {
+                "type": 2,
+                "target": "6121719d0f6c65b5d0318b43",
+                "id": "6121717c0f6c65b5d0318b41",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        1231.583372707958,
+                        -279.333374841233
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1299.208372707958,
+                        -279.333374841233
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1299.208372707958,
+                        -678.0833251614547
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1366.833372707958,
+                        -678.0833251614547
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              },
+              {
+                "type": 3,
+                "target": "612172430f6c65b5d0318b86",
+                "id": "6121ca89075ef5289f02b0ad"
+              }
+            ]
+          }
+        },
+        "61216ce40f6c65b5d0318ac0": {
+          "nodeID": "61216ce40f6c65b5d0318ac0",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "A free throw line shall be drawn (2” wide) across each of the circles indicated in the court diagram.  It shall be parallel to the end line and shall be 15’ from the plane of the face of the backboard.\n"
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "612170980f6c65b5d0318afe",
+                "id": "61216ce40f6c65b5d0318ac2",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        897.7500330315736,
+                        -624.3333011693636
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        873.7500330315736,
+                        -624.3333011693636
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        873.7500330315736,
+                        -47.49997800855624
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1077.9166996982403,
+                        -47.49997800855624
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1077.9166996982403,
+                        529.333345152251
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1053.9166996982403,
+                        529.333345152251
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "61216ce40f6c65b5d0318ac3": {
+          "nodeID": "61216ce40f6c65b5d0318ac3",
+          "type": "block",
+          "coords": [
+            1062.7499999999993,
+            -770.3333333333333
+          ],
+          "data": {
+            "name": "Free Throw Information",
+            "color": "standard",
+            "steps": [
+              "61216ce40f6c65b5d0318ac0"
+            ]
+          }
+        },
+        "6121700d0f6c65b5d0318adf": {
+          "nodeID": "6121700d0f6c65b5d0318adf",
+          "type": "block",
+          "coords": [
+            1066.5833333333333,
+            -497.33333333333337
+          ],
+          "data": {
+            "name": "Dimensions",
+            "color": "standard",
+            "steps": [
+              "612172430f6c65b5d0318b86",
+              "61216cd40f6c65b5d0318ab8"
+            ]
+          }
+        },
+        "612170980f6c65b5d0318afe": {
+          "nodeID": "612170980f6c65b5d0318afe",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "Do you want to know any other rule?"
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "612170a70f6c65b5d0318b09",
+                "id": "612170980f6c65b5d0318b00"
+              }
+            ]
+          }
+        },
+        "612170980f6c65b5d0318b01": {
+          "nodeID": "612170980f6c65b5d0318b01",
+          "type": "block",
+          "coords": [
+            889.9166666666665,
+            450.33333333333326
+          ],
+          "data": {
+            "name": "Again?",
+            "color": "standard",
+            "steps": [
+              "612170980f6c65b5d0318afe",
+              "612170a70f6c65b5d0318b09"
+            ]
+          }
+        },
+        "612170a70f6c65b5d0318b09": {
+          "nodeID": "612170a70f6c65b5d0318b09",
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "else": {
+              "type": "both",
+              "pathName": "No Match",
+              "randomize": false,
+              "reprompts": [
+                {
+                  "voice": "default",
+                  "content": "I couldn't understand you. Please repeat it again."
+                }
+              ]
+            },
+            "choices": [
+              {
+                "intent": "VF.YES",
+                "mappings": []
+              },
+              {
+                "intent": "VF.NO",
+                "mappings": []
+              },
+              {
+                "intent": "VF.REPEAT",
+                "mappings": []
+              }
+            ],
+            "reprompt": null,
+            "chips": null,
+            "buttons": null,
+            "ports": [
+              {
+                "type": "",
+                "target": "612170980f6c65b5d0318afe",
+                "id": "612170a70f6c65b5d0318b0c"
+              },
+              {
+                "type": "",
+                "target": "61216a820f6c65b5d0318a71",
+                "id": "612170a70f6c65b5d0318b0d",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        724.9167701234205,
+                        614.3333709189233
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        700.9167701234205,
+                        614.3333709189233
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        700.9167701234205,
+                        131.6667067953881
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        767.4999763001786,
+                        131.6667067953881
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        767.4999763001786,
+                        -350.99995732814705
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        743.4999763001786,
+                        -350.99995732814705
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              },
+              {
+                "type": 2,
+                "target": "612170fd0f6c65b5d0318b34",
+                "id": "612170f20f6c65b5d0318b32",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        724.9168090820312,
+                        668.3333721160889
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        623.5541534423828,
+                        668.3333721160889
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        623.5541534423828,
+                        759.7074451446533
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        522.1914978027344,
+                        759.7074451446533
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              },
+              {
+                "type": 3,
+                "target": "612170980f6c65b5d0318afe",
+                "id": "6121ca77075ef5289f02b0aa"
+              }
+            ]
+          }
+        },
+        "612170fd0f6c65b5d0318b34": {
+          "nodeID": "612170fd0f6c65b5d0318b34",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "If you want further information, you can enter to the NBA's official website rulebook. All the information for this application has been extracted from there."
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "61219e2b0f6c65b5d0318ee5",
+                "id": "612170fd0f6c65b5d0318b36",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        193.1915421100291,
+                        815.7074531059659
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        158.0461648843748,
+                        815.7074531059659
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        158.0461648843748,
+                        1030.6900669578238
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        182.0461648843748,
+                        1030.6900669578238
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "612170fd0f6c65b5d0318b37": {
+          "nodeID": "612170fd0f6c65b5d0318b37",
+          "type": "block",
+          "coords": [
+            358.191489361702,
+            680.7074401327903
+          ],
+          "data": {
+            "name": "Credits 1",
+            "color": "standard",
+            "steps": [
+              "612170fd0f6c65b5d0318b34"
+            ]
+          }
+        },
+        "6121719d0f6c65b5d0318b43": {
+          "nodeID": "6121719d0f6c65b5d0318b43",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "The three-point field goal area has parallel lines 3’ from the sidelines, extending from the baseline and an arc of 23’9” from the middle of the basket which intersects the parallel lines."
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "612170980f6c65b5d0318b01",
+                "id": "6121719d0f6c65b5d0318b45",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        1367.8333350648268,
+                        -611.083308463401
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1211.3749915589674,
+                        -611.083308463401
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1211.3749915589674,
+                        481.3333632895287
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1054.916648053108,
+                        481.3333632895287
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": true
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "6121719d0f6c65b5d0318b46": {
+          "nodeID": "6121719d0f6c65b5d0318b46",
+          "type": "block",
+          "coords": [
+            1532.8333333333333,
+            -757.0833333333335
+          ],
+          "data": {
+            "name": "Three Point Line Information",
+            "color": "standard",
+            "steps": [
+              "6121719d0f6c65b5d0318b43"
+            ]
+          }
+        },
+        "6121720c0f6c65b5d0318b7c": {
+          "nodeID": "6121720c0f6c65b5d0318b7c",
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "else": {
+              "type": "both",
+              "pathName": "No Match",
+              "randomize": false,
+              "reprompts": [
+                {
+                  "voice": "default",
+                  "content": "I couldn't understand you. Please repeat it again."
+                }
+              ]
+            },
+            "choices": [
+              {
+                "intent": "nw8p3a8x",
+                "mappings": []
+              },
+              {
+                "intent": "hmbe3ajq",
+                "mappings": []
+              },
+              {
+                "intent": "sej03a03",
+                "mappings": []
+              },
+              {
+                "intent": "lhkj3a7u",
+                "mappings": []
+              },
+              {
+                "intent": "md10t3a4f",
+                "mappings": []
+              },
+              {
+                "intent": "VF.REPEAT",
+                "mappings": []
+              }
+            ],
+            "reprompt": null,
+            "chips": null,
+            "buttons": null,
+            "ports": [
+              {
+                "type": "",
+                "target": "61216a820f6c65b5d0318a71",
+                "id": "6121720c0f6c65b5d0318b7f"
+              },
+              {
+                "type": "",
+                "target": "6121700d0f6c65b5d0318adf",
+                "id": "6121720c0f6c65b5d0318b80",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        744.500001523365,
+                        -266.0000178508624
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        823.0416757602836,
+                        -266.0000178508624
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        823.0416757602836,
+                        -466.33335071105495
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        901.5833499972022,
+                        -466.33335071105495
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": true
+                    }
+                  ]
+                }
+              },
+              {
+                "type": 2,
+                "target": "6121732e0f6c65b5d0318b91",
+                "id": "612172a60f6c65b5d0318b8c",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        744.4999763001784,
+                        -212.00000882656013
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        905.6914893617019,
+                        -212.00000882656013
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        905.6914893617019,
+                        -23.792561774558195
+                      ],
+                      "toTop": true,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": true
+                    }
+                  ]
+                }
+              },
+              {
+                "type": 3,
+                "target": "612176820f6c65b5d0318bed",
+                "id": "612176520f6c65b5d0318be0",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        438.25005259412376,
+                        -145.50002217800056
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        314.59579386609647,
+                        -145.50002217800056
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        314.59579386609647,
+                        -442.5425636819068
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        190.94153513806916,
+                        -442.5425636819068
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              },
+              {
+                "type": 4,
+                "target": "612178b60f6c65b5d0318c17",
+                "id": "612178570f6c65b5d0318c15",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        414.499969482422,
+                        -104.00000762939442
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        338.61664962768566,
+                        -104.00000762939442
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        338.61664962768566,
+                        12.161033630371207
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        262.7333297729494,
+                        12.161033630371207
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              },
+              {
+                "type": 5,
+                "target": "612184080f6c65b5d0318e05",
+                "id": "612184230f6c65b5d0318e0f"
+              },
+              {
+                "type": 6,
+                "target": "61216a820f6c65b5d0318a71",
+                "id": "6121c9c3075ef5289f02b094"
+              }
+            ]
+          }
+        },
+        "612172430f6c65b5d0318b86": {
+          "nodeID": "612172430f6c65b5d0318b86",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "Which dimensions do you want to know about?"
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "61216cd40f6c65b5d0318ab8",
+                "id": "612172430f6c65b5d0318b89"
+              }
+            ]
+          }
+        },
+        "6121732e0f6c65b5d0318b8e": {
+          "nodeID": "6121732e0f6c65b5d0318b8e",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "What do you want to know about the basket and the backboard?"
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "6121736a0f6c65b5d0318b9a",
+                "id": "6121732e0f6c65b5d0318b90"
+              }
+            ]
+          }
+        },
+        "6121732e0f6c65b5d0318b91": {
+          "nodeID": "6121732e0f6c65b5d0318b91",
+          "type": "block",
+          "coords": [
+            905.6914893617018,
+            -22.792559867209548
+          ],
+          "data": {
+            "name": "Basket and Backboard",
+            "color": "standard",
+            "steps": [
+              "6121732e0f6c65b5d0318b8e",
+              "6121736a0f6c65b5d0318b9a"
+            ]
+          }
+        },
+        "6121736a0f6c65b5d0318b9a": {
+          "nodeID": "6121736a0f6c65b5d0318b9a",
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "else": {
+              "type": "both",
+              "pathName": "No Match",
+              "randomize": false,
+              "reprompts": [
+                {
+                  "voice": "default",
+                  "content": "I couldn't understand you. Please repeat it again."
+                }
+              ]
+            },
+            "choices": [
+              {
+                "intent": "3cbs3aqg",
+                "mappings": []
+              },
+              {
+                "intent": "ncc83ans",
+                "mappings": []
+              },
+              {
+                "intent": "zica3alh",
+                "mappings": []
+              },
+              {
+                "intent": "lhd03aoi",
+                "mappings": []
+              },
+              {
+                "intent": "VF.REPEAT",
+                "mappings": []
+              }
+            ],
+            "reprompt": null,
+            "chips": null,
+            "buttons": null,
+            "ports": [
+              {
+                "type": "",
+                "target": "6121732e0f6c65b5d0318b8e",
+                "id": "6121736a0f6c65b5d0318b9d"
+              },
+              {
+                "type": "",
+                "target": "612173f00f6c65b5d0318ba6",
+                "id": "6121736a0f6c65b5d0318b9e",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        1070.6914588441236,
+                        141.2074363180932
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1316.4414588441236,
+                        141.2074363180932
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1316.4414588441236,
+                        -291.7926323464576
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1562.1914588441236,
+                        -291.7926323464576
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              },
+              {
+                "type": 2,
+                "target": "612174810f6c65b5d0318bc9",
+                "id": "612173990f6c65b5d0318ba2",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        1070.6914588441236,
+                        195.20743250339592
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1314.5664588441236,
+                        195.20743250339592
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1314.5664588441236,
+                        -20.29263616115486
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1558.4414588441236,
+                        -20.29263616115486
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              },
+              {
+                "type": 3,
+                "target": "612173f10f6c65b5d0318bb0",
+                "id": "612173a20f6c65b5d0318ba4",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        1070.6914588441236,
+                        260.2074325033959
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1322.6914588441236,
+                        260.2074325033959
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1322.6914588441236,
+                        226.95738672702873
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1574.6914588441236,
+                        226.95738672702873
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              },
+              {
+                "type": 4,
+                "target": "612173f40f6c65b5d0318bbd",
+                "id": "612174390f6c65b5d0318bc7",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        1070.6914588441236,
+                        325.2074325033959
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1244.4414741029127,
+                        325.2074325033959
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1244.4414741029127,
+                        480.2074172446069
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1418.1914893617018,
+                        480.2074172446069
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": true
+                    }
+                  ]
+                }
+              },
+              {
+                "type": 5,
+                "target": "6121732e0f6c65b5d0318b8e",
+                "id": "6121cb18075ef5289f02b189"
+              }
+            ]
+          }
+        },
+        "612173f00f6c65b5d0318ba6": {
+          "nodeID": "612173f00f6c65b5d0318ba6",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "A team’s basket consists of the basket ring and net through which its players try to\nshoot the ball."
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "612170980f6c65b5d0318b01",
+                "id": "612173f00f6c65b5d0318ba8",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        1563.1914588441236,
+                        -246.79261327297127
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1309.0540534486158,
+                        -246.79261327297127
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1309.0540534486158,
+                        481.3333632895288
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1054.916648053108,
+                        481.3333632895288
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": true
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "612173f00f6c65b5d0318ba9": {
+          "nodeID": "612173f00f6c65b5d0318ba9",
+          "type": "block",
+          "coords": [
+            1728.1915283203125,
+            -370.7925949096679
+          ],
+          "data": {
+            "name": "Basket and Backboard information",
+            "color": "standard",
+            "steps": [
+              "612173f00f6c65b5d0318ba6"
+            ]
+          }
+        },
+        "612173f10f6c65b5d0318bb0": {
+          "nodeID": "612173f10f6c65b5d0318bb0",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "Five sides of the backboard (front, two sides, bottom and top) are considered in play\nwhen contacted by the basketball. The back of the backboard and the area directly behind it\nare out-of-bounds.\n"
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "612170980f6c65b5d0318b01",
+                "id": "612173f10f6c65b5d0318bb2",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        1575.6914588441236,
+                        304.9574553915795
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1315.3040534486158,
+                        304.9574553915795
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1315.3040534486158,
+                        481.33340143650145
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1054.916648053108,
+                        481.33340143650145
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": true
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "612173f10f6c65b5d0318bb3": {
+          "nodeID": "612173f10f6c65b5d0318bb3",
+          "type": "block",
+          "coords": [
+            1740.6915283203125,
+            147.9574050903321
+          ],
+          "data": {
+            "name": "In play and out-of-bonds backboard sides",
+            "color": "standard",
+            "steps": [
+              "612173f10f6c65b5d0318bb0"
+            ]
+          }
+        },
+        "612173f40f6c65b5d0318bba": {
+          "nodeID": "612173f40f6c65b5d0318bba",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "The visiting team has the choice of baskets for the first half. The basket\nselected by the visiting team when it first enters onto the court shall be its basket for the first\nhalf."
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "612170980f6c65b5d0318b01",
+                "id": "612173f40f6c65b5d0318bbc",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        1418.191650390625,
+                        606.2073364257812
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1236.5541687011719,
+                        606.2073364257812
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1236.5541687011719,
+                        481.33328247070324
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1054.9166870117188,
+                        481.33328247070324
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": true
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "612173f40f6c65b5d0318bbd": {
+          "nodeID": "612173f40f6c65b5d0318bbd",
+          "type": "block",
+          "coords": [
+            1583.1915283203125,
+            449.2074050903321
+          ],
+          "data": {
+            "name": "Choosing the basket information",
+            "color": "standard",
+            "steps": [
+              "612173f40f6c65b5d0318bba"
+            ]
+          }
+        },
+        "612174810f6c65b5d0318bc9": {
+          "nodeID": "612174810f6c65b5d0318bc9",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "The teams change baskets for the second half. All overtime periods are considered\nextensions of the second half."
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "612170980f6c65b5d0318b01",
+                "id": "612174810f6c65b5d0318bcb",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        1559.4414588441236,
+                        35.707367653542406
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1307.1790534486158,
+                        35.707367653542406
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1307.1790534486158,
+                        481.33334421604246
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        1054.916648053108,
+                        481.33334421604246
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": true
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "612174810f6c65b5d0318bcc": {
+          "nodeID": "612174810f6c65b5d0318bcc",
+          "type": "block",
+          "coords": [
+            1724.4415283203125,
+            -99.29261779785158
+          ],
+          "data": {
+            "name": "Basket Change Information",
+            "color": "standard",
+            "steps": [
+              "612174810f6c65b5d0318bc9"
+            ]
+          }
+        },
+        "612176800f6c65b5d0318be2": {
+          "nodeID": "612176800f6c65b5d0318be2",
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "else": {
+              "type": "both",
+              "pathName": "No Match",
+              "randomize": false,
+              "reprompts": [
+                {
+                  "voice": "default",
+                  "content": "I couldn't understand you. Please repeat it again."
+                }
+              ]
+            },
+            "choices": [
+              {
+                "intent": "mpj93a5w",
+                "mappings": []
+              },
+              {
+                "intent": "umtz3a1d",
+                "mappings": []
+              },
+              {
+                "intent": "i6j83at2",
+                "mappings": []
+              },
+              {
+                "intent": "VF.REPEAT",
+                "mappings": []
+              }
+            ],
+            "reprompt": null,
+            "chips": null,
+            "buttons": null,
+            "ports": [
+              {
+                "type": "",
+                "target": "612176820f6c65b5d0318bed",
+                "id": "612176800f6c65b5d0318be4"
+              },
+              {
+                "type": "",
+                "target": "612177aa0f6c65b5d0318c08",
+                "id": "612176800f6c65b5d0318be5",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        -161.80846486193087,
+                        -370.04258275539314
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -205.55846486193084,
+                        -370.04258275539314
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -205.55846486193084,
+                        -793.5425484231178
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -181.55846486193084,
+                        -793.5425484231178
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              },
+              {
+                "type": 3,
+                "target": "61217e780f6c65b5d0318df0",
+                "id": "61217dc70f6c65b5d0318d64",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        -161.80846486193087,
+                        -305.04258275539314
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -313.16254696947476,
+                        -305.04258275539314
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -313.16254696947476,
+                        -253.33897710353767
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -464.5166290770187,
+                        -253.33897710353767
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              },
+              {
+                "type": 2,
+                "target": "612177730f6c65b5d0318bfd",
+                "id": "6121770c0f6c65b5d0318bfb",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        -161.80846486193087,
+                        -240.04258275539314
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -249.80844578844452,
+                        -240.04258275539314
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -249.80844578844452,
+                        -728.7925446084205
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -337.80842671495816,
+                        -728.7925446084205
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              },
+              {
+                "type": 4,
+                "target": "612176820f6c65b5d0318bed",
+                "id": "6121c954075ef5289f02b08f"
+              }
+            ]
+          }
+        },
+        "612176820f6c65b5d0318bed": {
+          "nodeID": "612176820f6c65b5d0318bed",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "What do you want to know about the dribble and the gather?"
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "612176800f6c65b5d0318be2",
+                "id": "612176820f6c65b5d0318bef"
+              }
+            ]
+          }
+        },
+        "612176820f6c65b5d0318bf0": {
+          "nodeID": "612176820f6c65b5d0318bf0",
+          "type": "block",
+          "coords": [
+            3.19148936170194,
+            -534.0425598672095
+          ],
+          "data": {
+            "name": "Dribble VS Gather",
+            "color": "standard",
+            "steps": [
+              "612176820f6c65b5d0318bed",
+              "612176800f6c65b5d0318be2"
+            ]
+          }
+        },
+        "612177730f6c65b5d0318bfd": {
+          "nodeID": "612177730f6c65b5d0318bfd",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "The dribble ends when the dribbler:\n1. Touches the ball simultaneously with both hands\n2. Permits the ball to come to rest while he is in control of it\n3. Tries for a field goal\n4. Throws a pass\n5. Touches the ball more than once while dribbling, before it touches the floor\n6. Loses control\n7. Allows the ball to become dead\n8. Otherwise gathers the ball\n"
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "612170980f6c65b5d0318afe",
+                "id": "612177730f6c65b5d0318bff",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        -336.8084648619309,
+                        -562.7925217202369
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        193.5541526307448,
+                        -562.7925217202369
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        193.5541526307448,
+                        529.3333327719506
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        723.9167701234205,
+                        529.3333327719506
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "612177730f6c65b5d0318c00": {
+          "nodeID": "612177730f6c65b5d0318c00",
+          "type": "block",
+          "coords": [
+            -501.80850982666016,
+            -807.7925643920898
+          ],
+          "data": {
+            "name": "Dribble end Information",
+            "color": "standard",
+            "steps": [
+              "612177730f6c65b5d0318bfd"
+            ]
+          }
+        },
+        "612177aa0f6c65b5d0318c08": {
+          "nodeID": "612177aa0f6c65b5d0318c08",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "For a player who receives the ball via a pass or gains possession of a loose ball, the gather is defined as the point where the player gains enough control of the ball to hold it, change hands, pass, shoot, or the player cradles the ball against his body."
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "612170980f6c65b5d0318afe",
+                "id": "612177aa0f6c65b5d0318c0a",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        149.44153513806913,
+                        -704.5425140908424
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        436.6791526307448,
+                        -704.5425140908424
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        436.6791526307448,
+                        529.3334853598412
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        723.9167701234205,
+                        529.3334853598412
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "612177aa0f6c65b5d0318c0b": {
+          "nodeID": "612177aa0f6c65b5d0318c0b",
+          "type": "block",
+          "coords": [
+            -15.558509826660156,
+            -872.5425491333008
+          ],
+          "data": {
+            "name": "Gather information",
+            "color": "standard",
+            "steps": [
+              "612177aa0f6c65b5d0318c08"
+            ]
+          }
+        },
+        "612178b60f6c65b5d0318c17": {
+          "nodeID": "612178b60f6c65b5d0318c17",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "What type of foul do you want to review?"
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "612179460f6c65b5d0318c23",
+                "id": "612178b60f6c65b5d0318c19"
+              }
+            ]
+          }
+        },
+        "612178b60f6c65b5d0318c1a": {
+          "nodeID": "612178b60f6c65b5d0318c1a",
+          "type": "block",
+          "coords": [
+            98.73333555439149,
+            -66.83895207113437
+          ],
+          "data": {
+            "name": "Fouls",
+            "color": "standard",
+            "steps": [
+              "612178b60f6c65b5d0318c17",
+              "612179460f6c65b5d0318c23"
+            ]
+          }
+        },
+        "612179460f6c65b5d0318c23": {
+          "nodeID": "612179460f6c65b5d0318c23",
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "else": {
+              "type": "both",
+              "pathName": "No Match",
+              "randomize": false,
+              "reprompts": [
+                {
+                  "voice": "default",
+                  "content": "I couldn't understand you. Please repeat it again."
+                }
+              ]
+            },
+            "choices": [
+              {
+                "intent": "q3tc3anm",
+                "mappings": []
+              },
+              {
+                "intent": "nbn43a52",
+                "mappings": []
+              },
+              {
+                "intent": "VF.REPEAT",
+                "mappings": []
+              }
+            ],
+            "reprompt": null,
+            "chips": null,
+            "buttons": null,
+            "ports": [
+              {
+                "type": "",
+                "target": "612178b60f6c65b5d0318c17",
+                "id": "612179460f6c65b5d0318c26"
+              },
+              {
+                "type": "",
+                "target": "6121796f0f6c65b5d0318c2e",
+                "id": "612179460f6c65b5d0318c27",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        -66.26667022705061,
+                        97.16103363037121
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -268.39167022705055,
+                        97.16103363037121
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -268.39167022705055,
+                        -25.839012145995923
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -470.51667022705055,
+                        -25.839012145995923
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": true
+                    }
+                  ]
+                }
+              },
+              {
+                "type": 2,
+                "target": "612179d50f6c65b5d0318c38",
+                "id": "612179cc0f6c65b5d0318c36",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        -66.26667022705061,
+                        151.1610107421876
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -281.3833312988279,
+                        151.1610107421876
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -281.3833312988279,
+                        331.7499237060548
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        -496.49999237060524,
+                        331.7499237060548
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              },
+              {
+                "type": 3,
+                "target": "612178b60f6c65b5d0318c17",
+                "id": "6121ca50075ef5289f02b0a3"
+              }
+            ]
+          }
+        },
+        "6121796f0f6c65b5d0318c2b": {
+          "nodeID": "6121796f0f6c65b5d0318c2b",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "A common personal foul is illegal physical contact which occurs with an opponent after the ball has become live and before the horn sounds to end the period. "
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "612170980f6c65b5d0318afe",
+                "id": "6121796f0f6c65b5d0318c2d",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        -470.51661763292697,
+                        78.16102861850823
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        126.70007624524675,
+                        78.16102861850823
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        126.70007624524675,
+                        529.3333232352074
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        723.9167701234205,
+                        529.3333232352074
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "6121796f0f6c65b5d0318c2e": {
+          "nodeID": "6121796f0f6c65b5d0318c2e",
+          "type": "block",
+          "coords": [
+            -635.5166625976562,
+            -56.83896636962892
+          ],
+          "data": {
+            "name": "Common fouls Information",
+            "color": "standard",
+            "steps": [
+              "6121796f0f6c65b5d0318c2b"
+            ]
+          }
+        },
+        "612179d50f6c65b5d0318c38": {
+          "nodeID": "612179d50f6c65b5d0318c38",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "A technical foul is the penalty for unsportsmanlike conduct or violations by team members on the floor or seated on the bench."
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "612170980f6c65b5d0318afe",
+                "id": "612179d50f6c65b5d0318c3a",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        -495.4999474058762,
+                        376.75001978366936
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        114.20841135877214,
+                        376.75001978366936
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        114.20841135877214,
+                        529.3333327719506
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        723.9167701234205,
+                        529.3333327719506
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "612179d50f6c65b5d0318c3b": {
+          "nodeID": "612179d50f6c65b5d0318c3b",
+          "type": "block",
+          "coords": [
+            -660.4999923706055,
+            252.75000953674322
+          ],
+          "data": {
+            "name": "Technical fouls Information",
+            "color": "standard",
+            "steps": [
+              "612179d50f6c65b5d0318c38"
+            ]
+          }
+        },
+        "61217b220f6c65b5d0318cce": {
+          "nodeID": "61217b220f6c65b5d0318cce",
+          "type": "exit",
+          "data": {
+            "ports": []
+          }
+        },
+        "61217e780f6c65b5d0318df0": {
+          "nodeID": "61217e780f6c65b5d0318df0",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "The player receives a Loss of ball penalty. Ball is awarded to the opposing team on the sideline nearest the spot of the violation but no nearer the baseline than the foul line extended."
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "612170980f6c65b5d0318afe",
+                "id": "61217e780f6c65b5d0318df2",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        -463.5166672239914,
+                        -186.33895993739998
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        130.1999751557692,
+                        -186.33895993739998
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        130.1999751557692,
+                        529.3333232352074
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        723.9166175355299,
+                        529.3333232352074
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "61217e780f6c65b5d0318df3": {
+          "nodeID": "61217e780f6c65b5d0318df3",
+          "type": "block",
+          "coords": [
+            -628.5166625976562,
+            -332.3389587402343
+          ],
+          "data": {
+            "name": "Not dribbling Information",
+            "color": "standard",
+            "steps": [
+              "61217e780f6c65b5d0318df0"
+            ]
+          }
+        },
+        "612184080f6c65b5d0318e05": {
+          "nodeID": "612184080f6c65b5d0318e05",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "What do you want to know about the shot clock?"
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "612184440f6c65b5d0318ead",
+                "id": "612184080f6c65b5d0318e07"
+              }
+            ]
+          }
+        },
+        "612184080f6c65b5d0318e08": {
+          "nodeID": "612184080f6c65b5d0318e08",
+          "type": "block",
+          "coords": [
+            589.5000000000002,
+            -949.75
+          ],
+          "data": {
+            "name": "Shot clock",
+            "color": "standard",
+            "steps": [
+              "612184080f6c65b5d0318e05",
+              "612184440f6c65b5d0318ead"
+            ]
+          }
+        },
+        "612184440f6c65b5d0318ead": {
+          "nodeID": "612184440f6c65b5d0318ead",
+          "type": "interaction",
+          "data": {
+            "name": "Choice",
+            "else": {
+              "type": "both",
+              "pathName": "No Match",
+              "randomize": false,
+              "reprompts": [
+                {
+                  "voice": "default",
+                  "content": "I couldn't understand you. Please repeat it again."
+                }
+              ]
+            },
+            "choices": [
+              {
+                "intent": "7p11h3af8",
+                "mappings": []
+              },
+              {
+                "intent": "iq12p3aku",
+                "mappings": []
+              },
+              {
+                "intent": "VF.REPEAT",
+                "mappings": []
+              }
+            ],
+            "reprompt": null,
+            "chips": null,
+            "buttons": null,
+            "ports": [
+              {
+                "type": "",
+                "target": "612184080f6c65b5d0318e05",
+                "id": "612184440f6c65b5d0318eb0"
+              },
+              {
+                "type": "",
+                "target": "6121846b0f6c65b5d0318eb5",
+                "id": "612184440f6c65b5d0318eb1"
+              },
+              {
+                "type": 2,
+                "target": "61219d120f6c65b5d0318ed2",
+                "id": "61219cca0f6c65b5d0318ec3",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        754.5000063874,
+                        -698.7500163233557
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        819.5230776764625,
+                        -698.7500163233557
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        819.5230776764625,
+                        -1652.8099604761876
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        884.546148965525,
+                        -1652.8099604761876
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    }
+                  ]
+                }
+              },
+              {
+                "type": 3,
+                "target": "612184080f6c65b5d0318e05",
+                "id": "6121ca1f075ef5289f02b09f"
+              }
+            ]
+          }
+        },
+        "6121846b0f6c65b5d0318eb5": {
+          "nodeID": "6121846b0f6c65b5d0318eb5",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "The shot clock will start when a team gains new possession of a ball which is in play.\nFollowing a jump ball or missed free throw, the shot clock shall start when new possession is obtained.\nTeam possession ends when:\n- The ball hits the rim of the offensive team\n- The opponent gains possession\n"
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "612170980f6c65b5d0318afe",
+                "id": "6121846b0f6c65b5d0318eb7"
+              }
+            ]
+          }
+        },
+        "6121846b0f6c65b5d0318eb8": {
+          "nodeID": "6121846b0f6c65b5d0318eb8",
+          "type": "block",
+          "coords": [
+            194.50000762939453,
+            -1330.5000076293948
+          ],
+          "data": {
+            "name": "Start and stop of the shot clock",
+            "color": "standard",
+            "steps": [
+              "6121846b0f6c65b5d0318eb5"
+            ]
+          }
+        },
+        "61219d120f6c65b5d0318ed2": {
+          "nodeID": "61219d120f6c65b5d0318ed2",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "The shot clock is usually set to 24 seconds. However, it will be set to 14 seconds if:\n1. The offensive team is the first to gain possession after an unsuccessful free throw that remains in play, or an unsuccessful field goal attempt that contacts the basket ring.\n2. A loose ball foul is called on the defensive team in the sequence immediately following an unsuccessful free throw that remains in play, or an unsuccessful field goal attempt that contacts the basket ring; provided that, as a result of the foul, the offensive team inbounds the ball in the frontcourt.\n3. The offensive team retains possession after the ball goes out of bounds in the sequence immediately following an unsuccessful free throw that remains in play, or an unsuccessful field goal attempt that contacts the basket ring."
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "612170980f6c65b5d0318afe",
+                "id": "61219d120f6c65b5d0318ed4"
+              }
+            ]
+          }
+        },
+        "61219d120f6c65b5d0318ed5": {
+          "nodeID": "61219d120f6c65b5d0318ed5",
+          "type": "block",
+          "coords": [
+            1050.546179483103,
+            -1731.809994808463
+          ],
+          "data": {
+            "name": "Shotclock time",
+            "color": "standard",
+            "steps": [
+              "61219d120f6c65b5d0318ed2"
+            ]
+          }
+        },
+        "61219e2b0f6c65b5d0318ee5": {
+          "nodeID": "61219e2b0f6c65b5d0318ee5",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "https://official.nba.com/rulebook/"
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "61219e430f6c65b5d0318efa",
+                "id": "61219e2b0f6c65b5d0318ee8",
+                "data": {
+                  "points": [
+                    {
+                      "point": [
+                        183.04613632387918,
+                        1031.6899451939773
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": true,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        159.04613632387918,
+                        1031.6899451939773
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        159.04613632387918,
+                        1131.0570004511383
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        230.15168645408738,
+                        1131.0570004511383
+                      ],
+                      "toTop": false,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": false
+                    },
+                    {
+                      "point": [
+                        230.15168645408738,
+                        1230.4240557082994
+                      ],
+                      "toTop": true,
+                      "locked": false,
+                      "reversed": false,
+                      "allowedToTop": true
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        "61219e2d0f6c65b5d0318eed": {
+          "nodeID": "61219e2d0f6c65b5d0318eed",
+          "type": "block",
+          "coords": [
+            348.04617948310323,
+            951.6900051915368
+          ],
+          "data": {
+            "name": "Credits 2",
+            "color": "standard",
+            "steps": [
+              "61219e2b0f6c65b5d0318ee5"
+            ]
+          }
+        },
+        "61219e430f6c65b5d0318ef7": {
+          "nodeID": "61219e430f6c65b5d0318ef7",
+          "type": "speak",
+          "data": {
+            "randomize": true,
+            "canvasVisibility": "preview",
+            "dialogs": [
+              {
+                "voice": "default",
+                "content": "Good bye!"
+              }
+            ],
+            "ports": [
+              {
+                "type": "",
+                "target": "61217b220f6c65b5d0318cce",
+                "id": "61219e430f6c65b5d0318ef9"
+              }
+            ]
+          }
+        },
+        "61219e430f6c65b5d0318efa": {
+          "nodeID": "61219e430f6c65b5d0318efa",
+          "type": "block",
+          "coords": [
+            230.1516864540875,
+            1231.4241269159818
+          ],
+          "data": {
+            "name": "Farewell",
+            "color": "standard",
+            "steps": [
+              "61219e430f6c65b5d0318ef7",
+              "61217b220f6c65b5d0318cce"
+            ]
+          }
+        }
+      },
+      "variables": [],
+      "children": [],
+      "name": "ROOT",
+      "versionID": "61216a6b47d41a00062ca40a",
+      "creatorID": 71495,
+      "modified": 1629633604
+    }
+  }
+}
